@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: caslon;
+    src: url(assets/fonts/ACaslonPro-SemiboldItalic.otf);
+}
+
+@font-face {
+    font-family: miklos;
+    src: url(assets/fonts/Miklos-Italic.ttf);
+}
+
+/* navbar */
+
+.navbar {
+    background-color: rgb(130, 44, 4);
+    font-family: caslon;
+}
+
+.nav-item {
+    margin: 0 40px 0;
+}
+
+.navbar-brand {
+    margin-top: 3px;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+}
+
+.navbar-nav .nav-link:hover {
+    opacity: 0.7;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-brand {
+        margin-right: 0;
+        padding: 0 1em;
+    }
+}
+
+/* akhir navbar */
+
+/* header */
+header {
+    background-color: rgb(130, 44, 4);
+    padding-bottom: 30px;
+}
+
+.snowflake {
+    padding-top: 23px;
+    display: flex;
+    justify-content: center;
+}
+
+.snowflake img {
+    margin: 8px;
+    margin-bottom: -8px;
+}
+
+.img-header {
+    padding-top: 20px;
+}
+
+.frame {
+    width: 330px;
+    height: 330px;
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    background: transparent;
+    margin: auto;
+}
+
+.evermore {
+    padding-top: 15px;
+    display: block;
+    margin: auto;
+}
+
+.text-header {
+    text-align: center;
+}
+
+.evermore-text {
+    font-family: miklos;
+    color: white;
+    font-size: 110px;
+    margin-top: -90px;
+    height: 130px;
+}
+
+.evermore-9th {
+    color: rgb(210, 110, 63);
+    margin-top: -20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+.evermore-swift {
+    color: #ffffffc9;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    color: #fff;
+    margin-top: 110px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.line hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 2px solid #fff;
+    margin: 0 10px;
+}
+
+.snowflake1 {
+    width: 15px;
+}
+
+.snowflake2 {
+    width: 18px;
+}
+
+.snowflake3 {
+    width: 28px;
+}
+
+@media only screen and (max-width: 600px) {
+    .img-header img {
+        width: 200px;
+        padding-top: 10px;
+    }
+
+    .frame {
+        width: 220px;
+        height: 220px;
+    }
+
+    .evermore-text {
+        margin-top: -70px;
+        font-size: 80px;
+    }
+
+    .evermore-9th {
+        font-size: 16px;
+    }
+
+    .evermore-swift {
+        font-size: 17px;
+    }
+
+    .snowflake1 {
+        width: 12px;
+    }
+
+    .snowflake2 {
+        width: 16px;
+    }
+
+    .snowflake3 {
+        width: 22px;
+
+    }
+}
+
+@media only screen and (max-width: 1059px) {
+    .line {
+        display: none;
+    }
+}
+
+/* akhir header */
