@@ -13,6 +13,11 @@
     src: url(assets/fonts/Miklos-Italic.ttf);
 }
 
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
 /* navbar */
 
 .navbar {
@@ -54,7 +59,9 @@
 /* header */
 header {
     background-color: rgb(130, 44, 4);
-    padding-bottom: 30px;
+    padding-bottom: 140px;
+    -webkit-mask-image: linear-gradient(rgb(0, 0, 0, 1) 97%, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(rgb(0, 0, 0, 1) 97%, rgba(0, 0, 0, 0));
 }
 
 .snowflake {
@@ -111,22 +118,6 @@ header {
     font-size: 18px;
 }
 
-.line {
-    display: flex;
-    align-items: center;
-    font-size: 17px;
-    color: #fff;
-    margin-top: 110px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.line hr {
-    flex-grow: 1;
-    border: none;
-    border-top: 2px solid #fff;
-    margin: 0 10px;
-}
-
 .snowflake1 {
     width: 15px;
 }
@@ -156,11 +147,11 @@ header {
     }
 
     .evermore-9th {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .evermore-swift {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .snowflake1 {
@@ -184,3 +175,352 @@ header {
 }
 
 /* akhir header */
+
+/* header content */
+.header-content {
+    background-color: rgb(227, 217, 202);
+    margin-top: -20px;
+}
+
+.message {
+    margin-top: -40px;
+}
+
+.message .p-taylor {
+    margin-top: 100px;
+    text-transform: uppercase;
+    color: rgb(130, 44, 4);
+    letter-spacing: 0.9px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.h-taylor {
+    color: black;
+    font-weight: bold;
+    font-family: miklos;
+    font-size: 60px;
+    margin-top: -20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .p-taylor {
+        font-size: 14px;
+    }
+
+    .h-taylor {
+        font-size: 30px;
+    }
+
+    .message .br1 {
+        padding-left: 0px;
+    }
+
+    .message .br2 {
+        padding-left: 0px;
+    }
+
+    .img-evermore {
+        display: block;
+        width: 200px;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .message .br1 {
+        padding-left: 20px;
+    }
+
+    .message .br2 {
+        padding-left: 50px;
+    }
+
+    .img-evermore {
+        display: block;
+        width: 450px;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .message .br1 {
+        padding-left: 20px;
+    }
+
+    .message .br2 {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .img-evermore {
+        margin: 50px 0px;
+        width: 300px;
+    }
+
+    .message .br1 {
+        padding-left: 120px;
+    }
+
+    .message .br2 {
+        padding-left: 80px;
+    }
+
+    .p-taylor {
+        font-size: 20px;
+    }
+
+    .h-taylor {
+        font-size: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .img-evermore {
+        margin: 50px -20px;
+        width: 400px;
+    }
+
+    .message .br1 {
+        display: inline-block;
+        padding-left: 190px;
+    }
+
+    .message .br2 {
+        display: inline-block;
+        padding-left: 110px;
+    }
+
+    .h-taylor {
+        font-weight: bold;
+        font-family: miklos;
+        font-size: 60px;
+        margin-top: -20px;
+    }
+}
+
+/* akhir header content */
+
+/* main content */
+.main-content {
+    padding-top: 50px;
+    background-color: rgb(227, 217, 202);
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.second-line {
+    margin-top: -50px;
+    padding-bottom: 50px;
+}
+
+.taylor-first-line1,
+.taylor-first-line2,
+.taylor-second-line {
+    width: 280px;
+}
+
+.text-second-line {
+    margin-top: 40px;
+}
+
+.third-line {
+    margin-left: 200px;
+    padding-bottom: 50px;
+}
+
+.fourth-line {
+    margin-left: 250px;
+    padding-bottom: 50px;
+}
+
+.img-third-line {
+    width: 380px;
+}
+
+.img-fourth-line {
+    width: 350px;
+}
+
+.text-fourth-line {
+    margin-top: 20px;
+}
+
+.img-last-line {
+    width: 400px;
+}
+
+.text-last-line {
+    margin-top: 50px;
+}
+
+.last-line {
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .p-ts {
+        font-size: 12px;
+        margin: 0 20px;
+    }
+
+    .taylor-first-line1,
+    .taylor-first-line2,
+    .taylor-second-line,
+    .img-third-line,
+    .img-fourth-line,
+    .img-last-line {
+        width: 200px;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .taylor-first-line1,
+    .taylor-first-line2 {
+        margin-top: 20px;
+    }
+
+    .taylor-second-line {
+        margin-top: 80px;
+    }
+
+    .text-second-line,
+    .text-third-line,
+    .text-fourth-line,
+    .text-last-line {
+        font-size: 12px;
+    }
+
+    .text-second-line,
+    .text-fourth-line,
+    .text-last-line {
+        margin: 0 20px;
+        margin-top: 20px;
+    }
+
+    .text-third-line {
+        margin: 0 20px;
+    }
+
+    .third-line {
+        margin-left: 0px;
+    }
+
+    .fourth-line {
+        margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .taylor-first-line1,
+    .taylor-first-line2,
+    .taylor-second-line,
+    .img-third-line,
+    .img-fourth-line,
+    .img-last-line {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .taylor-second-line {
+        margin-top: 80px;
+    }
+
+    .fourth-line,
+    .third-line {
+        margin: 0;
+    }
+}
+
+/* akhir main content */
+
+/* marquee */
+
+body {
+    background: rgb(227, 217, 202);
+    height: 300vh;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.marque-content {
+    margin-top: -20px;
+    background: rgb(227, 217, 202);
+}
+
+.wrapperRollingText,
+.wrapperRollingText02 {
+    white-space: nowrap;
+    font-family: 'Playfair Display', serif;
+    border-top: 2px solid #6f6f6f;
+}
+
+.rolling {
+    border-bottom: 2px solid #6f6f6f;
+}
+
+.rollingText {
+    font-size: 4.5vw;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.wrapperRollingText02 {
+    white-space: nowrap;
+    font-family: 'Playfair Display', serif;
+}
+
+.rollingText02 {
+    font-size: 4.5vw;
+    display: inline-block;
+    padding-left: 13px;
+}
+
+svg {
+    width: 400px;
+}
+
+#sign {
+    stroke-dasharray: 2475;
+    animation: signature 4s linear;
+}
+
+
+@media only screen and (max-width: 600px) {
+    svg {
+        width: 200px;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    svg {
+        display: block;
+        margin: auto;
+    }
+}
+
+@keyframes signature {
+    0% {
+        stroke-dashoffset: 2475;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .marque-content {
+        display: none;
+    }
+}
+
+/* akhir marquee */
